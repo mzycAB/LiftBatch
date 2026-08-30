@@ -1,0 +1,177 @@
+﻿
+> Configure project :
+Fabric Loom: 1.10.5
+
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :generateLog4jConfig UP-TO-DATE
+> Task :generateRemapClasspath UP-TO-DATE
+> Task :generateDLIConfig UP-TO-DATE
+> Task :configureLaunch UP-TO-DATE
+
+> Task :runServer
+[18:58:43] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.4 with Fabric Loader 0.16.14
+[18:58:43] [main/INFO] (FabricLoader) Loading 45 mods:
+	- fabric-api 0.97.3+1.20.4
+	- fabric-api-base 0.4.37+78d798af4f
+	- fabric-api-lookup-api-v1 1.6.50+82b1bb3e4f
+	- fabric-biome-api-v1 13.0.17+78d798af4f
+	- fabric-block-api-v1 1.0.17+3e2216cb4f
+	- fabric-block-view-api-v2 1.0.5+78d798af4f
+	- fabric-command-api-v1 1.2.42+f71b366f4f
+	- fabric-command-api-v2 2.2.21+78d798af4f
+	- fabric-commands-v0 0.2.59+df3654b34f
+	- fabric-containers-v0 0.1.88+df3654b34f
+	- fabric-content-registries-v0 5.0.16+78d798af4f
+	- fabric-convention-tags-v1 1.5.11+78d798af4f
+	- fabric-crash-report-info-v1 0.2.24+78d798af4f
+	- fabric-data-attachment-api-v1 1.1.5+b90db5744f
+	- fabric-data-generation-api-v1 13.2.6+5c0133444f
+	- fabric-dimensions-v1 2.1.63+6605d1a84f
+	- fabric-entity-events-v1 1.6.2+09fc25014f
+	- fabric-events-interaction-v0 0.7.2+389931eb4f
+	- fabric-events-lifecycle-v0 0.2.76+df3654b34f
+	- fabric-game-rule-api-v1 1.0.47+78d798af4f
+	- fabric-gametest-api-v1 1.3.6+85d85a934f
+	- fabric-item-api-v1 2.3.1+cadc140c4f
+	- fabric-item-group-api-v1 4.0.27+ee30b13a4f
+	- fabric-lifecycle-events-v1 2.3.1+a67ffb5d4f
+	- fabric-loot-api-v2 2.1.10+78d798af4f
+	- fabric-message-api-v1 6.0.6+78d798af4f
+	- fabric-mining-level-api-v1 2.1.66+78d798af4f
+	- fabric-networking-api-v1 3.1.9+6abb6a4b4f
+	- fabric-object-builder-api-v1 13.1.0+dba1195c4f
+	- fabric-particles-v1 1.1.8+78d798af4f
+	- fabric-recipe-api-v1 2.0.22+78d798af4f
+	- fabric-registry-sync-v0 4.0.21+ee30b13a4f
+	- fabric-rendering-data-attachment-v1 0.3.43+73761d2e4f
+	- fabric-rendering-fluids-v1 3.1.2+e761c6694f
+	- fabric-resource-conditions-api-v1 2.3.15+78d798af4f
+	- fabric-resource-loader-v0 0.11.21+ee30b13a4f
+	- fabric-screen-handler-api-v1 1.3.57+78d798af4f
+	- fabric-transfer-api-v1 4.0.12+90f2d7b14f
+	- fabric-transitive-access-wideners-v1 5.0.15+78d798af4f
+	- fabricloader 0.16.14
+	- java 21
+	- liftbatch 1.2.0
+	- minecraft 1.20.4
+	- mixinextras 0.4.1
+	- mtr 4.0.5
+[18:58:44] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/user/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:58:44] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[18:58:44] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[18:58:44] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18:58:53] [main/INFO] (MinecraftTransitRailway) Starting Minecraft with arguments:
+-Dfabric.dli.config=C:\Users\user\Desktop\aaa\liftbatch\.gradle\loom-cache\launch.cfg
+-Dfabric.dli.env=server
+-Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotServer
+-Dfile.encoding=UTF-8
+-Duser.country=CN
+-Duser.language=zh
+-Duser.variant
+[18:58:53] [main/INFO] (MinecraftTransitRailway) :  __  __ _                            __ _    
+[18:58:53] [main/INFO] (MinecraftTransitRailway) : |  \/  (_)                          / _| |   
+[18:58:53] [main/INFO] (MinecraftTransitRailway) : | \  / |_ _ __   ___  ___ _ __ __ _| |_| |_  
+[18:58:53] [main/INFO] (MinecraftTransitRailway) : | |\/| | | '_ \ / _ \/ __| '__/ _` |  _| __| 
+[18:58:53] [main/INFO] (MinecraftTransitRailway) : | |  | | | | | |  __/ (__| | | (_| | | | |_  
+[18:58:53] [main/INFO] (MinecraftTransitRailway) : |_|__|_|_|_| |_|\___|\___|_|_ \__,_|_|  \__| 
+[18:58:53] [main/INFO] (MinecraftTransitRailway) : |__   __|                (_) |               
+[18:58:53] [main/INFO] (MinecraftTransitRailway) :    | |_ __ __ _ _ __  ___ _| |_              
+[18:58:53] [main/INFO] (MinecraftTransitRailway) :    | | '__/ _` | '_ \/ __| | __|             
+[18:58:53] [main/INFO] (MinecraftTransitRailway) :    | | | | (_| | | | \__ \ | |_              
+[18:58:53] [main/INFO] (MinecraftTransitRailway) :    |_|_|  \__,_|_| |_|___/_|\__|             
+[18:58:53] [main/INFO] (MinecraftTransitRailway) :  _____       _ _                             
+[18:58:53] [main/INFO] (MinecraftTransitRailway) : |  __ \     (_) |                            
+[18:58:53] [main/INFO] (MinecraftTransitRailway) : | |__) |__ _ _| |_      ____ _ _   _         
+[18:58:53] [main/INFO] (MinecraftTransitRailway) : |  _  // _` | | \ \ /\ / / _` | | | |        
+[18:58:53] [main/INFO] (MinecraftTransitRailway) : | | \ \ (_| | | |\ V  V / (_| | |_| |        
+[18:58:53] [main/INFO] (MinecraftTransitRailway) : |_|  \_\__,_|_|_| \_/\_/ \__,_|\__, |        
+[18:58:53] [main/INFO] (MinecraftTransitRailway) :                                 __/ |        
+[18:58:53] [main/INFO] (MinecraftTransitRailway) :                                |___/ (4.0.5+1.20.4) 
+[18:58:53] [main/INFO] (MinecraftTransitRailway) :                                              
+[18:58:53] [main/INFO] (MinecraftTransitRailway) Registering Minecraft Transit Railway blocks
+[18:58:53] [main/INFO] (MinecraftTransitRailway) Registering Minecraft Transit Railway items
+[18:58:53] [main/INFO] (MinecraftTransitRailway) Registering Minecraft Transit Railway block entity types
+[18:58:53] [main/INFO] (MinecraftTransitRailway) Registering Minecraft Transit Railway entity types
+[18:58:53] [main/INFO] (MinecraftTransitRailway) Registering Minecraft Transit Railway creative mode tabs
+[18:58:53] [main/INFO] (MinecraftTransitRailway) Registering Minecraft Transit Railway sound events
+[18:58:53] [main/INFO] (MinecraftMappings) Minecraft Mappings logging enabled
+[18:58:53] [main/INFO] (fabric-networking-api-v1) Force Packet Serialization is enabled to mimic remote connection on single player, this is the default behaviour on dev env. Add -Dfabric-api.networking.force-packet-serialization=false JVM arg to disable it.
+[18:58:53] [main/INFO] (liftbatch) MTR lift hook: org.mtr.core.data.Lift
+[18:58:53] [main/INFO] (liftbatch) MTR Lift Batch Helper initialized
+[18:58:54] [main/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:58:55] [Worker-Main-2/ERROR] (Minecraft) Couldn't parse element loot_tables:mtr:blocks/train_cargo_unloader - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mtr:train_cargo_unloader
+[18:58:55] [Worker-Main-2/ERROR] (Minecraft) Couldn't parse element loot_tables:mtr:blocks/train_cargo_loader - Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mtr:train_cargo_loader
+[18:58:56] [main/INFO] (Minecraft) Loaded 7 recipes
+[18:58:56] [main/INFO] (Minecraft) Loaded 1271 advancements
+[18:58:57] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.554 ms
+[18:58:57] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.20.4
+[18:58:57] [Server thread/INFO] (Minecraft) Loading properties
+[18:58:57] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[18:58:57] [Server thread/INFO] (Minecraft) Generating keypair
+[18:58:57] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
+[18:58:57] [Server thread/INFO] (Minecraft) Using default channel type
+[18:58:57] [Server thread/INFO] (Minecraft) Preparing level "world"
+[18:58:59] [Yggdrasil Key Fetcher/ERROR] (Minecraft) Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.52.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.52.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.52.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.52.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1302) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1705) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1629) ~[?:?]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.52.jar:?]
+	... 9 more
+[18:59:00] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[18:59:00] [Server thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:59:00] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 83%
+[18:59:01] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 83%
+[18:59:01] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 83%
+[18:59:02] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 83%
+[18:59:02] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 83%
+[18:59:03] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 83%
+[18:59:03] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 84%
+[18:59:04] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 87%
+[18:59:04] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 92%
+[18:59:05] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 99%
+[18:59:05] [Server thread/INFO] (Minecraft) Time elapsed: 5086 ms
+[18:59:05] [Server thread/INFO] (Minecraft) Done (7.419s)! For help, type "help"
+[18:59:05] [Server thread/INFO] (MinecraftTransitRailway) Found available port: 8888
+[18:59:05] [Server thread/INFO] (TransportSimulationCore) Loading files...
+[18:59:05] [Server thread/INFO] (TransportSimulationCore) Data loading complete for minecraft/overworld in 0.018 second(s)
+[18:59:05] [Server thread/INFO] (TransportSimulationCore) Data loading complete for minecraft/the_end in 0.0 second(s)
+[18:59:05] [Server thread/INFO] (TransportSimulationCore) Data loading complete for minecraft/the_nether in 0.001 second(s)
+[18:59:05] [Server thread/INFO] (log) Logging initialized @23221ms to org.mtr.libraries.org.eclipse.jetty.util.log.Slf4jLog
+[18:59:05] [Server thread/INFO] (Server) jetty-9.4.54.v20240208; built: 2024-02-08T19:42:39.027Z; git: cef3fbd6d736a21e7d541a5db490381d95a2047d; jvm 21.0.11+10-LTS
+[18:59:05] [Server thread/INFO] (ContextHandler) Started o.m.l.o.e.j.s.ServletContextHandler@56858561{/,null,AVAILABLE}
+[18:59:05] [Server thread/INFO] (AbstractConnector) Started ServerConnector@76b72636{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+[18:59:05] [Server thread/INFO] (Server) Started @23348ms
+[18:59:05] [Server thread/INFO] (TransportSimulationCore) Server started with dimensions [minecraft/overworld, minecraft/the_end, minecraft/the_nether]
+[18:59:05] [Server thread/INFO] (MinecraftTransitRailway) Starting server as a dedicated server
+[18:59:05] [Server thread/INFO] (TransportSimulationCore) Simulation difference of 0h29m for minecraft/overworld caught up with 1776 ticks in 0.016 second(s)
+[18:59:05] [Server thread/INFO] (TransportSimulationCore) Simulation difference of 0h29m for minecraft/the_end caught up with 1776 ticks in 0.002 second(s)
+[18:59:05] [Server thread/INFO] (TransportSimulationCore) Simulation difference of 0h29m for minecraft/the_nether caught up with 1776 ticks in 0.002 second(s)

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "liftbatch",
+  "version": "${version}",
+  "name": "MTR Lift Batch Helper",
+  "description": "Batch rename MTR lift floors and batch bind lift display panels / call buttons along the elevator shaft.",
+  "authors": [
+    "mzycAB"
+  ],
+  "license": "MIT",
+  "icon": "assets/liftbatch/icon.png",
+  "environment": "*",
+  "mixins": [
+    "liftbatch.mixins.json"
+  ],
+  "entrypoints": {
+    "main": [
+      "com.liftbatch.LiftBatchMod"
+    ],
+    "client": [
+      "com.liftbatch.client.LiftBatchClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.4",
+    "java": ">=17",
+    "fabric-api": "*",
+    "mtr": ">=4.0.0 <5.0.0"
+  }
+}
